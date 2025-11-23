@@ -1,0 +1,67 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Europcar Portugal</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Europcar</div>
+    <nav>
+      <ul>
+        <li><a href="#">Log in</a></li>
+        <li><a href="#">US</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Menu</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="form-container">
+      <h2>What type of vehicle?</h2>
+      <div class="vehicle-type">
+        <button class="active">Cars</button>
+        <button>Vans & Trucks</button>
+      </div>
+
+      <div class="form-fields">
+        <div class="field">
+          <label>Pickup and return location</label>
+          <input type="text" placeholder="City, address, point of interest">
+        </div>
+        <div class="field">
+          <label>Pickup date and time</label>
+          <input type="date">
+          <input type="time">
+        </div>
+        <div class="field">
+          <label>Return date and time</label>
+          <input type="date">
+          <input type="time">
+        </div>
+      </div>
+
+      <div class="extra-options">
+        <label>I am 26+ <select><option>26+</option></select></label>
+        <label>I live in <b>Portugal</b> <select><option>Portugal</option></select></label>
+        <label><input type="checkbox"> I have a negotiated rate</label>
+      </div>
+
+      <button class="search-btn">Search</button>
+    </div>
+  </section>
+
+  <footer>
+    <ul>
+      <li><a href="#">My bookings</a></li>
+      <li><a href="#">Members' Discount</a></li>
+      <li><a href="#">See all our deals</a></li>
+      <li><a href="#">Go to Europcar Business</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
